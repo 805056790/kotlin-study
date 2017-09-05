@@ -1,5 +1,7 @@
 package kt.study.kt01;
 
+import org.junit.Test;
+
 /**
  * package main test for java
  *
@@ -15,6 +17,11 @@ public class JavaMainTest {
         System.out.println(javaUser);
         System.out.println(ktUser);
         System.out.println(dku);
+    }
+
+    @Test
+    public void test1() {
+        System.out.println("wtf");
     }
 
 }
